@@ -2,7 +2,8 @@ export default {
   path: "/system",
   meta: {
     icon: "material-symbols:settings-outline-rounded",
-    title: "系统设置"
+    title: "系统设置",
+    rank: 999
   },
   children: [
     {
