@@ -7,18 +7,26 @@ export default {
   children: [
     {
       path: "/sms/index",
-      name: "sms1",
+      name: "SendSms",
       component: () => import("@/views/sms/index.vue"),
       meta: {
-        title: "数据 1"
+        title: "发送短信"
       }
     },
     {
       path: "/sms/index2",
-      name: "sms2",
+      name: "SentSms",
       component: () => import("@/views/sms/index.vue"),
       meta: {
-        title: "数据 2"
+        title: "已发送"
+      }
+    },
+    {
+      path: "/sms/index3",
+      name: "AbnormalSms",
+      component: () => import("@/views/sms/index.vue"),
+      meta: {
+        title: "异常短信"
       }
     }
   ]

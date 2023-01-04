@@ -7,18 +7,11 @@ export default {
   children: [
     {
       path: "/gallery/index",
-      name: "gallery1",
+      name: "Gallery",
       component: () => import("@/views/gallery/index.vue"),
       meta: {
-        title: "数据 1"
-      }
-    },
-    {
-      path: "/gallery/index2",
-      name: "gallery2",
-      component: () => import("@/views/gallery/index.vue"),
-      meta: {
-        title: "数据 2"
+        title: "图库数据",
+        showParent: true
       }
     }
   ]

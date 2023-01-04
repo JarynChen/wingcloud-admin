@@ -7,18 +7,18 @@ export default {
   children: [
     {
       path: "/task/index",
-      name: "task1",
+      name: "TimeTask",
       component: () => import("@/views/task/index.vue"),
       meta: {
-        title: "数据 1"
+        title: "定时任务"
       }
     },
     {
       path: "/task/index2",
-      name: "task2",
+      name: "HistoryTask",
       component: () => import("@/views/task/index.vue"),
       meta: {
-        title: "数据 2"
+        title: "历史任务"
       }
     }
   ]

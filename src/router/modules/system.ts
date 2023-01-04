@@ -8,18 +8,11 @@ export default {
   children: [
     {
       path: "/system/index",
-      name: "system1",
+      name: "AdminIndex",
       component: () => import("@/views/system/index.vue"),
       meta: {
-        title: "数据 1"
-      }
-    },
-    {
-      path: "/system/index2",
-      name: "system2",
-      component: () => import("@/views/system/index.vue"),
-      meta: {
-        title: "数据 2"
+        title: "管理平台用户管理",
+        showParent: true
       }
     }
   ]

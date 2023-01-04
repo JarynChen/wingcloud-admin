@@ -7,18 +7,18 @@ export default {
   children: [
     {
       path: "/user/index",
-      name: "User1",
+      name: "UserCenter",
       component: () => import("@/views/user/index.vue"),
       meta: {
-        title: "数据 1"
+        title: "用户中心"
       }
     },
     {
       path: "/user/index2",
-      name: "User2",
+      name: "UserOperation",
       component: () => import("@/views/user/index.vue"),
       meta: {
-        title: "数据 2"
+        title: "用户操作"
       }
     }
   ]

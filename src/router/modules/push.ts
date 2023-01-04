@@ -7,18 +7,18 @@ export default {
   children: [
     {
       path: "/push/index",
-      name: "push1",
+      name: "PushData",
       component: () => import("@/views/push/index.vue"),
       meta: {
-        title: "数据 1"
+        title: "推送数据"
       }
     },
     {
       path: "/push/index2",
-      name: "push2",
+      name: "NewPush",
       component: () => import("@/views/push/index.vue"),
       meta: {
-        title: "数据 2"
+        title: "新建推送"
       }
     }
   ]
